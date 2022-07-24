@@ -1,1 +1,2 @@
 # activator
+for windows activating

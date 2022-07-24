@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html{
+    background: #18191A;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+#java{
+    position: relative;
+    left:-8px;
+    top: -10px;
+    width: 101.3%;
+    height: 10cm;
+    background-image: url(https://w0.peakpx.com/wallpaper/241/159/HD-wallpaper-black-stars-black-aesthetic.jpg);
+    font-family: 'Poppins', sans-serif;
+    animation: 45s rotate linear infinite;
+}
+@keyframes rotate{
+    100%{background-position: 30cm;}
+}
+#java h1{
+   background: linear-gradient(to left, #c6e709,rgb(0, 60, 255));
+    position: absolute;
+    left: 250px;
+    top: 2cm;
+    font-size: 90px;
+    animation: 2s bgd;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#java p{
+    color: white;
+    position: absolute;
+    left:380px;
+    bottom: 10px;
+    font-size: 50px;
+    animation: 2s bgda;
+
+}
+@keyframes bgd{
+    from{opacity: 0.0; left: 50px; top: 10px;}
+    to{     opacity: 0.9;  }
+}
+@keyframes bgda{
+    from{opacity: 0.0;}
+100%{opacity: 0.9;}
+}
+.kit{
+    position: relative;
+    position: relative;
+    left:-8px;
+    top: -30px;
+    height: 10cm;
+    width: 101.3%;
+color: white;
+    background: #18191A;
+}
+.kit h1{
+    text-align: center;
+    font-size: 40px;
+}
+#move{
+text-align: center;
+padding-bottom: 50pxe;
+}
+.dp{
+    width: 6cm;
+    background: rgb(91, 194, 7);
+     color: black;
+}
+#move input{
+    width: 10cm;
+    outline: none;
+    background:#7fba00;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+    background: #363f61;
+    border: thick;
+    border-radius: 10px;
+    height: 50px;
+}
+#move button{
+    width: 3.5cm;
+    height: 40px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -30px;
+    background: #2d3338;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: thick;
+    transition: 0.5s;
+    box-shadow: 10px 0px 10px black;
+
+    cursor: pointer;
+}
+#move button:hover{
+    margin-left: 10px;
+    width: 3.5cm;
+    height: 40px;
+    background: #1257918e;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: thick;
+    transition: 0.5s;
+    box-shadow: 10px 5px 10px black;
+    cursor: pointer;
+}
+#move #btn{
+        width: 6cm;
+        font-size: 15px;
+        color: white;
+        font-family: 'Poppins';
+        background: rgb(91, 194, 7); color: black;
+}
+#move #btn:hover{
+    background:rgb(1, 170, 52);
+    margin-left: 30px;
+    box-shadow: none;
+
+}
+.tubify{
+    width: 10cm;
+}
+.midair{
+display: flex;
+justify-content: center;
+}
+.direct{
+    border-radius: 50px;
+    background: rgba(1, 88, 170, 0.473);
+    text-align: center;
+    width: 30cm;
+    text-align: center;
+}
+.direct h1{
+    text-align: center;
+}
+.direct img{
+    width: 20cm;
+    border-radius: 20px;
+    text-align: center;
+}
+footer{
+    background: rgba(0, 255, 179, 0.199);
+    text-align: center;
+    border-radius: 50px;
+
+}
+footer button{
+    width: 50px;
+    height:50px;
+    border-radius: 50% / 50%;
+    font-size: 30px;
+    background: #2d3338;
+color: white;
+    outline: none;
+    border: thick;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.tnt{
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px 15px 3px;
+    width: 9cm;
+    height: 2cm;
+    border-radius: 30px;
+cursor: pointer;
+}
+.tnt p{
+}
+.tnt img{
+    position: relative;
+    width: 50px;
+    top: 20px;
+}
+
+.midi
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
